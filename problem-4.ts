@@ -8,6 +8,7 @@ type Rectangle = {
   height: number;
   width: number;
 };
+
 type Shape = Circle | Rectangle;
 
 const calculateShapeArea = (params: Shape): number | undefined => {
